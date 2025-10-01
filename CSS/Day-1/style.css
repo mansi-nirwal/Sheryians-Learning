@@ -1,0 +1,43 @@
+h1{
+    color: rebeccapurple;
+    background-color: wheat;
+}
+p{
+    color: aqua;
+    background-color: black;
+    font-size: 23px;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: transparent;
+    color: black;
+    height: 30px;
+    width: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    color: red;
+    background-color: rgb(204, 96, 96);
+    font: 10px;
+
+}
+
+#btn{
+    background-color: rgb(61, 61, 117);
+    color: white;
+}
+
+@font-face {
+    font-family: horror;
+    src: url(./Another\ Danger\ Slanted\ -\ Demo.otf);
+}
+
+.font-check{
+color: red;
+background-color: black;
+font-family: horror;
+}
