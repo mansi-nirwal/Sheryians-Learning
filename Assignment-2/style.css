@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+ 
+}
+
+@font-face {
+    font-family: horror;
+    src: url(./Another\ Danger\ Slanted\ -\ Demo.otf);
+}
+@font-face {
+    font-family: second;
+    src: url(./CinzelDecorative-Black.ttf);
+}
+.hero{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(57, 58, 57);
+ background: url(pexels-jpfariax-7016272.jpg);
+ background-size: cover;
+background-position: center;
+text-align: center;
+font-family: horror;
+}
+.hero h1{
+    font-size: 70px;
+    font-weight: 200;
+}
+button{
+    height: 40px;
+    width: 150px;
+    font-family: horror;
+    background-color: transparent;
+   border-radius: 20px;
+   cursor: pointer;
+ margin-bottom: 3px;
+}
+
+nav{
+    text-align: right;
+    margin-right: 10px;
+      margin-bottom: 15%;
+   
+}
+a{
+    background-color: transparent;
+  margin-left: 6px;
+  font-size: 15px; 
+  font-weight: 0;
+  text-decoration: none; 
+  font-family: second;
+
+}
+#black{
+    color: black;
+}
+#red{
+    color: red;
+}
+#white{
+    color: white;
+}
+.head{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
